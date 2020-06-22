@@ -1,4 +1,4 @@
-# Skeleton NodeJS app
+# Skeleton Python app
 
 A skeleton Python web app using [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
