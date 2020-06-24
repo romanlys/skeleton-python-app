@@ -10,19 +10,6 @@ app = Flask(__name__)
 def root():
     return "The server is running!"
 
-@app.route("/test")
-def test():
-    return "test!"
-
-@app.route("/test4")
-def test4():
-    return "test4!"
-
-
-@app.route("/test5")
-def test5():
-    return "test5!"
-
 @app.route("/api")
 def api():
 	query = request.args.get('q')
